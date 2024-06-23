@@ -33,7 +33,7 @@ const HeroSection = () => {
       </div>
       <div className="md:w-1/2 mr-11 flex justify-center p-6">
         <img
-          src={assets.Pic}
+          src="src/assets/Pic.jpg"
           alt="Plate"
           className="w-full h-auto rounded-lg"
         />
