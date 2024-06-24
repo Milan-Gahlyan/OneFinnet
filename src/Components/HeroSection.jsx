@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from '../assets/assets';
 
 const HeroSection = () => {
   return (
@@ -33,7 +34,7 @@ const HeroSection = () => {
       </div>
       <div className="md:w-1/2 mr-11 flex justify-center p-6">
         <img
-          src="../src/assets/Pic.jpg"
+          src={assets.Pic}
           alt="Plate"
           className="w-full h-auto rounded-lg"
         />
